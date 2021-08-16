@@ -12,7 +12,7 @@ const Header = ({ onChangeLanguage, value, runCode, status }) => {
   ];
   return (
     <div style={{ textAlign: "center", width: "100%" }}>
-      <h2>Online Code Compiler</h2>
+      <h2>Online Code Editor</h2>
       <p>Online IDE</p>
       <div style={{ textAlign: 'center', marginBottom: '2px' }}>
         <DropDown
