@@ -18,7 +18,8 @@ const CodeEditor = ({ value, onCodeChange, programmingLanguage }) => {
       className="codeEditor"
       placeholder="Write your code..."
       mode={programmingLanguage}
-
+      theme="monokai"
+      name="editor"
       onLoad={onLoad}
       onChange={onCodeChange}
       fontSize={14}
