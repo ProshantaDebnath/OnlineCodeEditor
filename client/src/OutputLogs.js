@@ -8,7 +8,7 @@ import "ace-builds/src-noconflict/theme-monokai";
 
 // Project Imports
 import "./styles.css";
-const OutputLogs=()=>{
+const OutputLogs = ()=>{
   return (
     <AceEditor
       className="outputLogs"
@@ -30,6 +30,6 @@ const OutputLogs=()=>{
       }}
     />
   );
-  };
+};
 
 export default OutputLogs;
