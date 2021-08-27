@@ -10,6 +10,9 @@ const app = express()
 
 app.use(bodyParser.json())
 
+
+// this section is optional
+
 if(process.env.NODE_ENV === 'production'){
     // Set static folder
     app.use(express.static('client/build'));
