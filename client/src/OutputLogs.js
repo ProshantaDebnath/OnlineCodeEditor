@@ -8,6 +8,7 @@ import "ace-builds/src-noconflict/theme-monokai";
 
 // Project Imports
 import "./styles.css";
+
 const OutputLogs = ({ value }) => {
   const onLoad = () => {
     console.log("output editor loaded");
